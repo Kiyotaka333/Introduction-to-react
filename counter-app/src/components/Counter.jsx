@@ -15,10 +15,11 @@ export default function Counter(){
 
     return (
     <div>
-        <h1>Counter:{count}</h1>
+        <h1 className={classes.counterText}>Count:{count}</h1>
         <div className={classes.btmContainer}>
         <button onClick={incrementCount}>Increment</button>
-         <button onClick={decrementCount}>Decrement</button>
+        {/* {count>0?<button onClick={decrementCount}>Decrement</button>:<></>}*/}
+        {count>0 &&<button onClick={decrementCount}>Decrement</button>:<></>}
     </div>
     </div>
     );
