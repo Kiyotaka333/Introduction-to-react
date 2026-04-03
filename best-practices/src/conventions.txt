@@ -1,0 +1,9 @@
+Naming Conventions
+
+variable and Function naming-> LowerCamelCase
+.js file naming -> LowerCamelCase or Kabab-case
+image naming -> Kabab-case
+
+React component naming -> PascalCase
+.jsx file naming-> PascalCase
+React component name = File name
