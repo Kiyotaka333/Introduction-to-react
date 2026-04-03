@@ -1,0 +1,19 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+button{
+  background-color: aqua;
+  color: antiquewhite;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

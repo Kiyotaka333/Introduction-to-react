@@ -1,0 +1,15 @@
+.form{
+    display: flex;
+    flex-direction:column ;
+    gap: 16px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgb(red, green, blue);
+}
+.formControl{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
